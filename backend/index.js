@@ -10,7 +10,7 @@ const corsOptions = {
     origin: [
         'http://localhost:5173',           // Local Vite dev server
         'http://127.0.0.1:5173',          // Local Vite dev server alternative
-        'https://quickpay-frontend.vercel.app', // Your deployed frontend (update this)
+        'https://quick-pay-lac.vercel.app', // Your deployed frontend (update this)
         'https://your-domain.vercel.app',  // Replace with your actual domain
         /^http:\/\/192\.168\.\d{1,3}\.\d{1,3}:5173$/, // Any 192.168.x.x:5173 for local dev
         /^http:\/\/10\.\d{1,3}\.\d{1,3}\.\d{1,3}:5173$/, // Any 10.x.x.x:5173 for local dev
