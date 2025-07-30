@@ -1,0 +1,56 @@
+[
+  {
+    "userId": {
+      "$oid": "6889aee82c778aa7a7aed382"
+    },
+    "balance": 8765.4
+  },
+  {
+    "userId": {
+      "$oid": "6889aee82c778aa7a7aed383"
+    },
+    "balance": 12450.9
+  },
+  {
+    "userId": {
+      "$oid": "6889aee82c778aa7a7aed384"
+    },
+    "balance": 6890.25
+  },
+  {
+    "userId": {
+      "$oid": "6889aee82c778aa7a7aed385"
+    },
+    "balance": 21340.8
+  },
+  {
+    "userId": {
+      "$oid": "6889aee82c778aa7a7aed386"
+    },
+    "balance": 9876.5
+  },
+  {
+    "userId": {
+      "$oid": "6889aee82c778aa7a7aed387"
+    },
+    "balance": 14567.3
+  },
+  {
+    "userId": {
+      "$oid": "6889aee82c778aa7a7aed388"
+    },
+    "balance": 7234.65
+  },
+  {
+    "userId": {
+      "$oid": "6889aee82c778aa7a7aed389"
+    },
+    "balance": 18923.45
+  },
+  {
+    "userId": {
+      "$oid": "6889aee82c778aa7a7aed38a"
+    },
+    "balance": 11678.2
+  }
+]

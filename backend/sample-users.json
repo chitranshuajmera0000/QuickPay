@@ -1,0 +1,72 @@
+[
+  {
+    "username": "john.doe@gmail.com",
+    "firstName": "JOHN",
+    "lastName": "DOE",
+    "password": "John123!",
+    "balance": 15230.75
+  },
+  {
+    "username": "jane.smith@outlook.com",
+    "firstName": "JANE",
+    "lastName": "SMITH",
+    "password": "Jane456!",
+    "balance": 8765.40
+  },
+  {
+    "username": "robert.johnson@yahoo.com",
+    "firstName": "ROBERT",
+    "lastName": "JOHNSON",
+    "password": "Robert789!",
+    "balance": 12450.90
+  },
+  {
+    "username": "emily.davis@gmail.com",
+    "firstName": "EMILY",
+    "lastName": "DAVIS",
+    "password": "Emily101!",
+    "balance": 6890.25
+  },
+  {
+    "username": "michael.wilson@hotmail.com",
+    "firstName": "MICHAEL",
+    "lastName": "WILSON",
+    "password": "Michael202!",
+    "balance": 21340.80
+  },
+  {
+    "username": "sarah.brown@gmail.com",
+    "firstName": "SARAH",
+    "lastName": "BROWN",
+    "password": "Sarah303!",
+    "balance": 9876.50
+  },
+  {
+    "username": "david.taylor@outlook.com",
+    "firstName": "DAVID",
+    "lastName": "TAYLOR",
+    "password": "David404!",
+    "balance": 14567.30
+  },
+  {
+    "username": "jessica.anderson@yahoo.com",
+    "firstName": "JESSICA",
+    "lastName": "ANDERSON",
+    "password": "Jessica505!",
+    "balance": 7234.65
+  },
+  {
+    "username": "christopher.thomas@gmail.com",
+    "firstName": "CHRISTOPHER",
+    "lastName": "THOMAS",
+    "password": "Chris606!",
+    "balance": 18923.45
+  },
+  {
+    "username": "amanda.jackson@hotmail.com",
+    "firstName": "AMANDA",
+    "lastName": "JACKSON",
+    "password": "Amanda707!",
+    "balance": 11678.20
+  }
+]

@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6889aee82c778aa7a7aed382"
+  },
+  "username": "jane.smith@outlook.com",
+  "firstName": "JANE",
+  "lastName": "SMITH",
+  "password": "Jane456!",
+  "balance": 8765.4
+},
+{
+  "_id": {
+    "$oid": "6889aee82c778aa7a7aed383"
+  },
+  "username": "robert.johnson@yahoo.com",
+  "firstName": "ROBERT",
+  "lastName": "JOHNSON",
+  "password": "Robert789!",
+  "balance": 12450.9
+},
+{
+  "_id": {
+    "$oid": "6889aee82c778aa7a7aed384"
+  },
+  "username": "emily.davis@gmail.com",
+  "firstName": "EMILY",
+  "lastName": "DAVIS",
+  "password": "Emily101!",
+  "balance": 6890.25
+},
+{
+  "_id": {
+    "$oid": "6889aee82c778aa7a7aed385"
+  },
+  "username": "michael.wilson@hotmail.com",
+  "firstName": "MICHAEL",
+  "lastName": "WILSON",
+  "password": "Michael202!",
+  "balance": 21340.8
+},
+{
+  "_id": {
+    "$oid": "6889aee82c778aa7a7aed386"
+  },
+  "username": "sarah.brown@gmail.com",
+  "firstName": "SARAH",
+  "lastName": "BROWN",
+  "password": "Sarah303!",
+  "balance": 9876.5
+},
+{
+  "_id": {
+    "$oid": "6889aee82c778aa7a7aed387"
+  },
+  "username": "david.taylor@outlook.com",
+  "firstName": "DAVID",
+  "lastName": "TAYLOR",
+  "password": "David404!",
+  "balance": 14567.3
+},
+{
+  "_id": {
+    "$oid": "6889aee82c778aa7a7aed388"
+  },
+  "username": "jessica.anderson@yahoo.com",
+  "firstName": "JESSICA",
+  "lastName": "ANDERSON",
+  "password": "Jessica505!",
+  "balance": 7234.65
+},
+{
+  "_id": {
+    "$oid": "6889aee82c778aa7a7aed389"
+  },
+  "username": "christopher.thomas@gmail.com",
+  "firstName": "CHRISTOPHER",
+  "lastName": "THOMAS",
+  "password": "Chris606!",
+  "balance": 18923.45
+},
+{
+  "_id": {
+    "$oid": "6889aee82c778aa7a7aed38a"
+  },
+  "username": "amanda.jackson@hotmail.com",
+  "firstName": "AMANDA",
+  "lastName": "JACKSON",
+  "password": "Amanda707!",
+  "balance": 11678.2
+}]

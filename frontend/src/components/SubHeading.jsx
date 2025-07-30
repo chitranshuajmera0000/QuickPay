@@ -1,4 +1,12 @@
-export function SubHeading({ text }) {
-    return <div className="text-slate-500 pt-4 pb-3 pl-3 pr-3 text-lg"
-                >{text}</div>
+export function SubHeading({ text, className = "", darkMode }) {
+    const defaultClass = `
+        text-lg font-medium leading-relaxed
+        ${darkMode ? 'text-slate-400' : 'text-gray-600'}
+    `;
+
+    return (
+        <p className={`${defaultClass} ${className}`}>
+            {text}
+        </p>
+    );
 }

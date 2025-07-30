@@ -2,10 +2,10 @@ const express = require('express')
 const zod = require('zod')
 const { User, Account } = require('../db')
 const jwt = require('jsonwebtoken');
-const { JWT_SECRET } = require('../config');
 const { authMiddleware } = require('../middleware');
 const cors = require('cors')
 const ObjectId = require('mongodb').ObjectId;
+const { JWT_SECRET } = require('../config');
 
 const router = express.Router();
 router.use(cors())
@@ -80,7 +80,6 @@ router.post('/signin', async (req, res) => {
         username: req.body.username,
         password: req.body.password,
     })
-    console.log('here to get info')
     if (user) {
         const token = jwt.sign({
             userId: user._id
@@ -129,7 +128,7 @@ router.put('/', authMiddleware, async function (req, res) {
 
 })
 
-router.get('/bulk', authMiddleware, async (req, res) => {
+router.get('/bulk', authMiddleware , async (req, res) => {
 
     const filter = req.query.filter || '';
     let users = await User.find({
@@ -144,10 +143,9 @@ router.get('/bulk', authMiddleware, async (req, res) => {
         },]
     })
     users = users.map(user => {
-        if (user._id != req.userId) {
+        if (user._id.toString() !== req.userId.toString()) {
             return user;
         }
-
         return null
     }).filter(user => user != null)
 
@@ -161,8 +159,7 @@ router.get('/bulk', authMiddleware, async (req, res) => {
     })
 })
 
-router.get('/info', authMiddleware, async (req, res) => {
-
+router.get('/info' ,authMiddleware, async (req, res) => {
     const user = await User.findOne({
         _id: req.userId
     })
@@ -171,7 +168,7 @@ router.get('/info', authMiddleware, async (req, res) => {
     })
     res.status(200).json({
         user: user,
-        balance: account.balance
+        balance: account.balance.toFixed(2) // Ensure balance is a string with two decimal places
     })
 })
 

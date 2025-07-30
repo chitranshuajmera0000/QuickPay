@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e4e4e4;
+}
+
+/* Similarly style buttons, inputs, links etc. */
