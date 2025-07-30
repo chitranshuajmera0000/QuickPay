@@ -1,0 +1,14 @@
+{
+  "name": "quickpay-fullstack",
+  "version": "1.0.0",
+  "description": "QuickPay - Full Stack Digital Payment App",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "start": "cd backend && npm start"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}

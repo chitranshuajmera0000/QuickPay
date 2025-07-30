@@ -5,7 +5,7 @@ const isDevelopment = import.meta.env.DEV;
 const API_URL = import.meta.env.VITE_API_URL || (
     isDevelopment 
         ? "http://localhost:3000/api/v1"
-        : "https://your-backend-url.vercel.app/api/v1"  // Replace with your deployed backend URL
+        : "/api/v1"  // For Vercel monorepo deployment
 );
 
 export const BASELINK = API_URL;

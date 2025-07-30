@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js",
+    "deploy:cf": "wrangler deploy",
+    "dev:cf": "wrangler dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["payment", "finance", "api", "express"],
