@@ -3,7 +3,7 @@
 
 A modern, secure digital payment application built with React.js and Node.js, featuring real-time money transfers, user authentication, and a beautiful responsive design.
 
-![QuickPay Demo]((https://quick-pay-lac.vercel.app/dashboard))
+[QuickPay Demo]([https://quick-pay-lac.vercel.app/dashboard])
 
 ## ✨ Features
 
@@ -36,8 +36,8 @@ A modern, secure digital payment application built with React.js and Node.js, fe
 
 ## 🚀 Live Demo
 
-- **Frontend:** [https://quickpay-frontend.vercel.app]((https://quick-pay-lac.vercel.app/dashboard))
-- **Backend API:** [https://quickpay-backend.vercel.app]((https://quick-pay-lac.vercel.app/dashboard))
+- **Frontend:** [https://quickpay-frontend.vercel.app]([https://quick-pay-lac.vercel.app/dashboard])
+- **Backend API:** [https://quickpay-backend.vercel.app]([https://quick-pay-lac.vercel.app/dashboard])
 
 ### Test Accounts
 ```
